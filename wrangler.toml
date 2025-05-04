@@ -1,6 +1,6 @@
 name = "ov0"
 
-compatibility_date = "2022-12-31"
+compatibility_date = "2025-05-04"
 compatibility_flags = [ "nodejs_compat" ]
 node_compat = true
 usage_model = "bundled"
