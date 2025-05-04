@@ -1,10 +1,12 @@
-name = "onexss-api"
-main = "src/index.ts"
-compatibility_date = "2025-05-04"
+name = "ov0"
+
+compatibility_date = "2022-12-31"
 compatibility_flags = [ "nodejs_compat" ]
+node_compat = true
 usage_model = "bundled"
 minify = true
 send_metrics =false
+
 
 kv_namespaces = [
     { binding = "JSKV", id = "e77daf76b30f4dd5b265595eb5976138" , preview_id="e77daf76b30f4dd5b265595eb5976138"},
@@ -15,5 +17,6 @@ d1_databases = [
     {binding = "DB", database_name = "xss" , database_id = "8949ea9e-e955-40ba-8757-935e69e4bafd",preview_id = "8949ea9e-e955-40ba-8757-935e69e4bafd"}
 ]
 
-[triggers]
-crons = [ ]
+[vars]
+TOKEN_SALT = "21232f297a57a5a743894a0e4a801fc3"
+PASSWORD_SALT = "13aac021d9b660fb5cdc03e76a012976"
