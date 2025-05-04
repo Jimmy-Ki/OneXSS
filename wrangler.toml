@@ -1,0 +1,19 @@
+name = "onexss-api"
+main = "src/index.ts"
+compatibility_date = "2022-11-31"
+compatibility_flags = [ "nodejs_compat" ]
+usage_model = "bundled"
+minify = true
+send_metrics =false
+
+kv_namespaces = [
+    { binding = "JSKV", id = "e77daf76b30f4dd5b265595eb5976138" , preview_id="e77daf76b30f4dd5b265595eb5976138"},
+]
+
+
+d1_databases = [
+    {binding = "DB", database_name = "xss" , database_id = "8949ea9e-e955-40ba-8757-935e69e4bafd",preview_id = "8949ea9e-e955-40ba-8757-935e69e4bafd"}
+]
+
+[triggers]
+crons = [ ]
